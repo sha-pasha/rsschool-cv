@@ -1,6 +1,6 @@
 # Pavel Shakuro
 
-**Contacts:**
+## Contacts:
 * e-mail: <sh.pasha.v@gmail.com>
 * telegram: [pasha_sha](https://t.me/pasha_sha)
 
