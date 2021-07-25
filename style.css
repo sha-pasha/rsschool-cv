@@ -29,6 +29,7 @@ h2 {
 }
 
 h3 {
+  font-size: 1.5em;
   margin-bottom: 10px;
 }
 
@@ -67,7 +68,6 @@ footer {
 .photo {
   margin-left: 33px;
   margin-top: -100px;
-  border: 1px solid #ddd;
 }
 
 .title {
@@ -100,8 +100,11 @@ footer {
 .project-estation::before {
   content: ' ';
   display: inline-block;
-  width: 25px;
-  height: 30px;
+  position: relative;
+  top: 15px;
+  width: 35px;
+  height: 40px;
+  margin-right: 7px;
   background-image: url(./img/point_icon.png);
   background-size: cover;
   background-position: center;
