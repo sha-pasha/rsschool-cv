@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,200;1,400;1,600;1,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://krot.mobi/uploads/posts/2020-01/1579377445_1-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: 200;
+  font-style: italic;
+  line-height: 18px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  width: 200px;
+}
+
+pre {
+  border: 1px solid #ddd;
+
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background: #fff;
+  box-shadow: 1px 1px 24px #000;
+}
+
+.photo {
+  margin-left: 33px;
+  margin-top: -100px;
+  border: 1px solid #ddd;
+}
+
+.title {
+  flex: 1 0 100%;
+  padding: 30px;
+  padding-left: 250px;
+  color: #fff;
+  background-color: #0099ad;
+}
+
+.contacts {
+  padding: 20px;
+}
+
+.contacts__list {
+  list-style: none;
+}
+
+.contacts__item {
+  font-size: 22px;
+}
+
+.contacts__item > a > i {
+  padding: 5px;
+}
+
+.time {
+  color: #5c5c5c;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.project-estation::before {
+  content: ' ';
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-image: url(./img/point_icon.png);
+  background-size: cover;
+  background-position: center;
+}
