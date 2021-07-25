@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #000;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-image: url(https://krot.mobi/uploads/posts/2020-01/1579377445_1-1.jpg);
@@ -30,6 +34,7 @@ h3 {
 
 section {
   margin: 20px;
+  margin-bottom: 0;
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
@@ -43,10 +48,18 @@ pre {
 
 }
 
+footer {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 30px;
+  font-size: 55px;
+  background: #0099ad;
+}
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
-  padding-bottom: 20px;
   background: #fff;
   box-shadow: 1px 1px 24px #000;
 }
