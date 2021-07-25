@@ -49,11 +49,11 @@ pre {
 }
 
 footer {
-  height: 120px;
+  height: 90px;
   display: flex;
   justify-content: space-around;
   padding: 15px 30px;
-  font-size: 55px;
+  font-size: 40px;
   background: #0099ad;
 }
 
@@ -84,9 +84,6 @@ footer {
 
 .contacts__list {
   list-style: none;
-}
-
-.contacts__item {
   font-size: 22px;
 }
 
