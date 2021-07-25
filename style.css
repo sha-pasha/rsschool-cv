@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,200;1,400;1,600;1,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://krot.mobi/uploads/posts/2020-01/1579377445_1-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: 200;
+  font-style: italic;
+  line-height: 18px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  width: 200px;
+}
+
+pre {
+  border: 1px solid #ddd;
+
+}
+
+footer {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 30px;
+  font-size: 40px;
+  background: #0099ad;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 1px 1px 24px #000;
+}
+
+.photo {
+  margin-left: 33px;
+  margin-top: -100px;
+}
+
+.title {
+  flex: 1 0 100%;
+  padding: 30px;
+  padding-left: 250px;
+  color: #fff;
+  background-color: #0099ad;
+}
+
+.contacts {
+  padding: 20px;
+}
+
+.contacts__list {
+  list-style: none;
+  font-size: 22px;
+}
+
+.contacts__item > a > i {
+  padding: 5px;
+}
+
+.time {
+  color: #5c5c5c;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.project-estation::before {
+  content: ' ';
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  width: 35px;
+  height: 40px;
+  margin-right: 7px;
+  background-image: url(./img/point_icon.png);
+  background-size: cover;
+  background-position: center;
+}
